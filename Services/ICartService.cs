@@ -4,6 +4,6 @@ namespace ProjektSklepElektronika.Services
 {
     public interface ICartService
     {
-        decimal CalculateTotalValue(List<Cart> cartItems);
+        decimal CalculateTotalValue(List<ProjektSklepElektronika.Nowy_folder.Cart> cartItems);
     }
 }

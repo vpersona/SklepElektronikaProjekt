@@ -4,7 +4,7 @@ namespace ProjektSklepElektronika.Services
 {
     public class CartService : ICartService
     {
-        public decimal CalculateTotalValue(List<Cart> cartItems)
+        public decimal CalculateTotalValue(List<ProjektSklepElektronika.Nowy_folder.Cart> cartItems)
         {
             decimal total = 0;
 
