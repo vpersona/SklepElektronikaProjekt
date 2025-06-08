@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 public class CartController : ControllerBase
 {
     private static List<Cart> _cart = new List<Cart>();
-    private readonly CartService _cartService;
+    private readonly ICartService _cartService;
 
     public CartController(ICartService cartService)
     {
