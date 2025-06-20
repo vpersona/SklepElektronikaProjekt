@@ -59,7 +59,7 @@ public class CartController : ControllerBase
     [HttpGet("total")]
     public ActionResult<decimal> GetTotalCartValue()
     {
-        var total = _cartService.CalculateTotalValue(_cart);
+        var total =_cartService.CalculateTotalValue(_cart);
         return Ok(total);
     }
 }
